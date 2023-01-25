@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ron.Dev() Portfolio</title>
+    <meta name="description" content="Philippines Web Developer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"> Ron Bautista </a>
+      </div>
+    </nav>
+
+    <!-- Display picture -->
+    <div class="container-fluid px-3 py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-6 col-sm-8">
+          <img src="./Images/HEAD.png" class="img-fluid" alt="..." />
+        </div>
+        <h1 class="display-2 text-center fw-bolder">Hey there, I'm Ron!</h1>
+        <div class="text-center p-3">
+          <button type="button" class="btn btn-lg">
+            <a class="contact" href="#contact">Let's talk</a>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Intro -->
+    <div class="container-fluid px-3 py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-6 col-sm-8">
+          <p class="text-center fs-3">
+            I am passionate about helping people solve problems and am excited
+            to work with individuals who share this passion and are dedicated to
+            making a difference
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid px-4 py-5">
+      <div class="row justify-content-center">
+        <div class="d-lg-flex col-lg-5 col-md-10 col-sm-10">
+          <div class="box p-5 m-2">
+            <p class="text-justify fs-4">
+              I have been called a “serial hobbyist.” There is so much to be
+              interested in, to learn about, and to pour one’s creativity into.
+              I spend time with our dogs, reading books, computers, drawing, and
+              traveling. There are a million things I want to try, to do, to be
+              better at. There is never enough time in the day, week, or year
+              for everything; though I’m really trying.
+            </p>
+          </div>
+        </div>
+        <div class="d-lg-flex col-lg-5 col-md-10 col-sm-10">
+          <div class="box p-5 m-2">
+            <p class="text-justify fs-4">
+              I didn’t make this page lightly, and have spent some time
+              considering whether or not to really go for this. I love a
+              challenge. I love the idea of working with people that are
+              brilliant; whom I admire and respect. I know what it means to work
+              together to make something great. And I look forward to making
+              your company better by my addition. I want to learn from you and I
+              want to teach you and I want to learn things together.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Carousel Portfolio -->
+    <section class="Projects px-4 py-5">
+      <div id="Portfolio" class="carousel slide" data-bs-ride="carousel">
+        <div>
+          <h1 class="display-5 text-center fw-bolder">Portfolio</h1>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./Images/Screenshot 2023-01-23 at 9.28.32 PM.png"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./Images/Screenshot 2023-01-23 at 9.25.02 PM.png"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <!-- <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+        </div> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- START: Contact Section -->
+    <section id="contact" class="px-4 py-5">
+      <div class="container p-4">
+        <h2 class="font-heading mb-4 text-center display-5 fw-bolder">
+          Let's get in touch
+        </h2>
+        <div class="contact-box">
+          <form class="contact__form">
+            <div class="row justify-content-center">
+              <div class="col-lg-6 col-sm-12">
+                <div class="form-group m-2">
+                  <label for="contact__name">Name</label>
+                  <input
+                    type="name"
+                    class="form-control"
+                    id="contact__name"
+                    placeholder="Please enter your name"
+                  />
+                </div>
+              </div>
+              <div class="col-lg-6 col-sm-12">
+                <div class="form-group m-2">
+                  <label for="contact__email">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="contact__email"
+                    placeholder="Please enter your email"
+                  />
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="form-group m-2">
+                  <label for="contact__message">Message</label>
+                  <textarea
+                    class="form-control"
+                    placeholder="Tell me more about your project"
+                    id="contact__message"
+                    rows="5"
+                  ></textarea>
+                </div>
+              </div>
+            </div>
+
+            <div class="btn-lg text-center mt-10 pt-3">
+              <button type="submit" class="btn-contact">
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap Script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
