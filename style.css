@@ -24,18 +24,18 @@ html {
 }
 
 
-.img-fluid {
-  animation-name: flo;
+#DP {
+  /* animation-name: flo;
   animation-duration: 4s;
-  animation-iteration-count: infinite;
+  animation-iteration-count: infinite; */
   position: relative;
-  bottom: 10px;
+  /* bottom: 10px; */
 }
-@keyframes flo {
+/* @keyframes flo {
   50% {
     transform: translateY(25px);
   }
-}
+} */
 
 .btn {
   padding: 20px;
@@ -96,20 +96,28 @@ html {
 }
 
 .box {
-  border-radius: 16px;
+  border-radius: 50px;
   background: #ffffff;
-  border-radius: 16px;
   -webkit-box-shadow: 17px 20px 40px rgba(0, 0, 0, 0.21);
   box-shadow: 17px 20px 40px rgba(0, 0, 0, 0.21);
   padding: 40px;
   display: flex;
 }
 
+.tile-img {
+  display: inline-block !important;
+  align-items: center;
+  width: 10px;
+  height: 10px;
+  padding: 1px;
+  border-radius: 50%; 
+}
+
 .contact-box {
-  background-image: url("./Images/finalbg.svg");
+  background-image: url("./Images/aurorah.png");
   background-size: cover;
   background-position: center center;
-  border-radius: 16px;
+  border-radius: 50px;
   -webkit-box-shadow: 17px 20px 40px rgba(0, 0, 0, 0.21);
   box-shadow: 17px 20px 40px rgba(0, 0, 0, 0.21);
   background-attachment: fixed;
@@ -117,7 +125,7 @@ html {
 }
 
 .form-control {
-  border-radius: 8px;
+  border-radius: 15px;
   font-family: "Lato", sans-serif;
   font-size: medium;
 }
