@@ -25,17 +25,8 @@ html {
 
 
 #DP {
-  /* animation-name: flo;
-  animation-duration: 4s;
-  animation-iteration-count: infinite; */
   position: relative;
-  /* bottom: 10px; */
 }
-/* @keyframes flo {
-  50% {
-    transform: translateY(25px);
-  }
-} */
 
 .btn {
   padding: 20px;
@@ -144,9 +135,29 @@ html {
 }
 
 .Projects {
- background-image: url("/Images/blurp.svg");
+ background-image: url("./Images/blurp.svg");
  background-repeat:no-repeat;
  background-size: cover;
  background-position: center center;
  background-attachment: fixed;
+}
+
+.Socials {
+  display: inline;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.Github {
+ font-family: "Lato", sans-serif;
+ font-weight: 900;
+ font-size: 18px;
+ color: #1DA1F2;
+}
+
+.LinkedIn {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-size: 18px;
+  color: #833AB4;
 }
