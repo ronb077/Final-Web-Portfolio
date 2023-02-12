@@ -24,8 +24,9 @@ html {
 }
 
 
-#DP {
+.hero_image {
   position: relative;
+  width: 100%;
 }
 
 .btn {
